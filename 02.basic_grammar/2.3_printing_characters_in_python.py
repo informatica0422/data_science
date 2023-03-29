@@ -48,3 +48,28 @@ multi_line_string = """
 Circus>에서 따온 것이다."""
 
 print(multi_line_string)
+
+# exercise 2.3.1
+multi_line_string = """
+Beautiful is better than ugly
+Explicit is better than implicit
+Simple is better than complex
+Complex is better than complicated
+Flat is better than nested
+Sparse is better than dense"""
+
+print(multi_line_string)
+
+at = '@'
+n = 6
+
+print(at * n + "\n" + at + "    " + at + "\n" + at + "    " + at + "\n" + at + "    " + at + "\n" + at * n)
+
+# 문자열 치환
+# 문자열에서 특정 문자를 다른 문자로 바꾸려면 replace 메서드를 사용한다.
+print("2020.10.23".replace(".", "-"))
+# 문자열의 공백을 없애려면 " " 공백 문자열을 "" 빈 문자열로 바꾸면 된다.
+print("word with space".replace(" ", ""))
+
+# exercise 2.3.2
+print("2020-12-25".replace("-", ""))
